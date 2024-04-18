@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.featured-playlists {
+    margin-bottom: 40px;
+}
+
+.playlist {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.playlist img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.your-music ul {
+    list-style-type: none;
+}
+
+.your-music ul li {
+    margin-bottom: 10px;
+}
+
+.podcasts .episode {
+    margin-bottom: 10px;
+}
